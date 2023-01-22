@@ -13,7 +13,7 @@
 <LI>Replace the default VPC ID vpc-442aaf21 in infrastructure/variables.tf with the default VPC ID of your own AWS Account (1 location)
 <LI>Install JMeter in your Jenkins Server
 <LI>Install Terraform in your Jenkins Server
-<LI>Replace the "DevOps" key in the Infrastructure/ec2_test.tf file with an existing key pair in your AWS account. For example, the Jenkins key pair. 
+<LI>Replace the "JenkinsInstaceKeys" key in the Infrastructure/ec2_test.tf file with an existing key pair in your AWS account. For example, the Jenkins key pair. 
 </UL>
   
 <H1>Additional Configuration:</H1>
